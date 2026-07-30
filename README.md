@@ -21,12 +21,12 @@ Compreender como o orçamento familiar pode ser utilizado para organizar receita
 - Compreender a relação entre orçamento, consumo consciente e endividamento;
 - Avaliar criticamente as respostas produzidas por inteligência artificial.
 
-## Estrutura do repositório
+## Organização dos materiais
 
-- `fontes/`: curadoria dos materiais utilizados no NotebookLM;
-- `prompts/`: perguntas estratégicas e variações testadas;
-- `respostas/`: respostas, referências, dificuldades e ajustes;
-- `miniguia/`: entrega final consolidada sobre orçamento familiar.
+- `fontes/`: fontes consultadas e prompts testados no NotebookLM;
+- `respostas/`: registro das dificuldades encontradas e dos ajustes realizados;
+- `miniguia-orcamento-familiar.md`: entrega final consolidada do projeto;
+- `README.md`: apresentação, estrutura e resultados do projeto.
 
 ## Ferramentas utilizadas
 
