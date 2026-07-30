@@ -88,3 +88,54 @@ A resposta atendeu ao objetivo da pergunta porque:
 - Demonstrou que o orçamento precisa ser acompanhado e ajustado regularmente.
 
 O prompt estruturado ajudou a produzir uma resposta prática, organizada e adequada para pessoas iniciantes.
+
+
+## Pergunta 3 — Classificação de receitas e despesas
+
+### Objetivo
+
+Compreender as diferenças entre receitas, despesas fixas, despesas variáveis e despesas eventuais, utilizando definições simples e exemplos cotidianos.
+
+### Prompt inicial
+
+> Com base exclusivamente nas quatro fontes selecionadas, explique as diferenças entre receitas, despesas fixas, despesas variáveis e despesas eventuais. Apresente uma definição simples e dois exemplos fictícios de cada categoria. Organize a resposta em uma tabela e inclua as referências utilizadas.
+
+### Resultado inicial observado
+
+A resposta apresentou corretamente as quatro categorias, com definições, exemplos fictícios e citações. Entretanto, a tabela exibiu códigos HTML `<br>` no texto, prejudicando sua apresentação e legibilidade.
+
+### Prompt de correção
+
+> Refaça a resposta anterior sem utilizar códigos HTML, como `<br>`. Mantenha as quatro categorias, com definição simples e dois exemplos fictícios para cada uma. Organize em uma tabela Markdown limpa, escrevendo cada exemplo separado por ponto e vírgula, e mantenha as citações das fontes.
+
+### Resultado após o ajuste
+
+A nova resposta manteve as quatro categorias e suas respectivas explicações. Os códigos HTML deixaram de aparecer e os exemplos foram separados por ponto e vírgula, tornando a tabela mais limpa e fácil de compreender.
+
+Foram apresentadas as seguintes categorias:
+
+- Receitas;
+- Despesas fixas;
+- Despesas variáveis;
+- Despesas eventuais.
+
+### Referências apresentadas
+
+O NotebookLM incluiu citações numeradas nas definições e explicações, relacionando as informações aos conteúdos das fontes selecionadas.
+
+### Verificação das referências
+
+Foi aberta uma das citações apresentadas para comparar a definição com o trecho da fonte. A referência consultada sustentava a classificação correspondente.
+
+### Avaliação da resposta
+
+A resposta corrigida atendeu ao objetivo porque:
+
+- Diferenciou as quatro categorias solicitadas;
+- Apresentou definições simples;
+- Incluiu dois exemplos fictícios de cada categoria;
+- Utilizou uma tabela para facilitar a comparação;
+- Manteve as citações das fontes;
+- Corrigiu o problema de formatação identificado na primeira tentativa.
+
+Esse teste demonstrou que instruções específicas sobre o formato da resposta podem corrigir problemas de apresentação sem alterar o conteúdo principal.
